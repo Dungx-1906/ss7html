@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+    display: flex;
+
+    justify-content: center;
+}
+.head{
+    background-color: white;
+    padding: 20px;
+    border-radius:5px ;
+}
+img{
+    width: 316.5px;
+    height: 512px;
+}
+div div div div{
+    background-color: coral;
+    width: 6px;
+    height: 24px;
+    margin: 0 15px 0 0;
+}
+.tieu-de{
+    display: flex;
+    align-items: center;
+}
+h2{
+    position: absolute;
+    top: 522px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 297px;
+}
+h3:hover{
+    color: coral;
+}

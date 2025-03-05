@@ -1,0 +1,44 @@
+body {            font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+.content {
+    max-width: 600px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.content-item {
+    border-bottom: 1px solid #ddd;
+}
+.content-label {
+    display: block;
+    padding: 15px;
+    background: #f8f9fa;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.content-label:hover {
+    background: #e9ecef;
+}
+.content-content {
+    max-height: 0;
+    overflow: hidden;
+    background: white;
+    padding: 0 15px;
+    transition: max-height 0.3s ease-in-out, padding 0.3s;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked + .content-label {
+    background: #dce6f9;
+}
+input[type="radio"]:checked + .content-label + .content-content {
+    max-height: 200px;
+    padding: 15px;
+}
+samp{
+    color: plum;
+}

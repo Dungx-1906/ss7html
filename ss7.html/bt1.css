@@ -1,0 +1,29 @@
+.body{
+    background-color: whitesmoke;
+    display: flex;
+    width: 50%;
+}
+.head{
+    margin: 20px;
+}
+h1{
+    color: midnightblue;
+    font-weight: 700;
+}
+div div{
+    color: midnightblue;
+}
+.nhan-tu-van{
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    margin: 0px 10px;
+    padding: 10px 30px;
+}
+.check{
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px 30px;
+}
